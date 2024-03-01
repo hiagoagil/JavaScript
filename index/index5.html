@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro passos com DOM</title>
+    <style>
+        body {
+            background-color: rgb(76, 85, 71);
+            color: blanchedalmond;
+            font: 20pt Arial;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Inicando passos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+    <div id ="msg">Clique em mim</div>
+    <script>
+        // var corpo = window.document.body // pra que ser verve? 
+        // var p1 = window.document.getElementsByTagName('p')[1] // chamando o elemento pela tag
+        // var d = window.document.getElementById('msg') // chamando o elento pelo id
+        // d.style.backgroundColor = 'blue' // mudando a cor do fundo do texto da divi original
+        // d.innerText ='Estou modificando o texto original' // para modificar o texto original
+        // window.document.getElementById('msg').innerText = 'Mudei de  novo'  // outro jeito de muda o texto        
+        var d = window.document.querySelector('#msg')
+        d.innerText = 'Arrasei'
+        d.style.backgroundColor = 'pink'
+        
+        </script>
+</body>
+
+</html>
