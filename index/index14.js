@@ -17,4 +17,4 @@ do {
     console.log(`Vou ser uma grande referência de Q.A ${c}`)
     c++
 }
-while (c>=6)
+while (c<=6)
